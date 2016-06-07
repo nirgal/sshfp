@@ -200,7 +200,7 @@ parser.add_argument('hosts', metavar="hostname", nargs='+')
 args = parser.parse_args(sys.argv[1:])
 
 if args.version:
-	sys.exit("dane: version 1.2.2")
+	sys.exit("dane: version 1.3.0")
 if not args.rfc:
 	args.draft = True
 

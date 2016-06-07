@@ -1,3 +1,11 @@
+v1.3.0 (Jun, 2016)
+- dane: Allow following CNAME. This is useful for servers with SNI enabled. [Arne Schwabe]
+- sshfp: Added support for ecdsa keys. [Danny Fullerton]
+- sshfp: Add fingerprint type 2 support (sha-256). [Danny Fullerton]
+- sshfp: Added support for ed25519 keys. [Nirgal Vourgère]
+- sshfp: Add support for IPv6 AAAA records. [Jinn Koriech]
+- sshfp: Add support for regex filters and for probing multiple ports at once. [Jinn Koriech]
+
 v1.2.2 (Sep 6, 2011)
 - Fix -4 / -6 flags [Chris]
 - Throw errors on stderr to improve pipe usage [Ludwig Nusse]
