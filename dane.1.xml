@@ -47,7 +47,7 @@ If the nameserver of the domain allows zone tranfers (AXFR), an entire domain ca
   <varlistentry>
   <term><option>-q / --quiet</option></term>
   <listitem>
-<para>Supress all warnings - useful when scanning lots of host where some do not run SSL</para>
+<para>Suppress all warnings - useful when scanning lots of host where some do not run SSL</para>
   </listitem>
   </varlistentry>
   <varlistentry>
