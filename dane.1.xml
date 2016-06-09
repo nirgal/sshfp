@@ -33,7 +33,7 @@
 <para>dane generates TLSA/HASTLS records based on the IETF DANE working group proposal.
 These are currently in draft, so private RRTYPE assignments are used. Records are generated
 by connecting to the website using SSL and grabbing its (EE) certificate. 
-If the nameserver of the domain allows zone tranfers (AXFR), an entire domain can be processed for all its A/AAAA records.</para>
+If the nameserver of the domain allows zone transfers (AXFR), an entire domain can be processed for all its A/AAAA records.</para>
 </refsect1>
 
 <refsect1 id='options'><title>OPTIONS</title>
